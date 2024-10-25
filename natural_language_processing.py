@@ -20,7 +20,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.tree import DecisionTreeClassifier
 
 # Import Dataset
-data = pd.read_csv(r"C:\Users\nag15\.spyder-py3\Spyder Projects\Artificial Intelligence\Restaurant_Reviews.tsv", delimiter='\t', quoting=3)
+data = pd.read_csv(r'Restaurant_Reviews.tsv', delimiter='\t', quoting=3)
 
 # Cleaning the texts
 nltk.download('stopwords')
